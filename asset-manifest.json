@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/websitePortfolio/static/css/main.4958a35d.css",
-    "main.js": "/websitePortfolio/static/js/main.8128a190.js",
-    "static/js/961.e1b23e98.chunk.js": "/websitePortfolio/static/js/961.e1b23e98.chunk.js",
+    "main.css": "/websitePortfolio/static/css/main.d0027939.css",
+    "main.js": "/websitePortfolio/static/js/main.3680b08b.js",
+    "static/js/961.1378820c.chunk.js": "/websitePortfolio/static/js/961.1378820c.chunk.js",
     "static/js/499.1487ee5e.chunk.js": "/websitePortfolio/static/js/499.1487ee5e.chunk.js",
     "static/media/KirangHaerangRegular.ttf": "/websitePortfolio/static/media/KirangHaerangRegular.bcd168525fd387546c75.ttf",
     "static/media/img_headshottransparent.png": "/websitePortfolio/static/media/img_headshottransparent.24a4c2561449f68baa90.png",
@@ -11,13 +11,13 @@
     "static/media/img_frame_red_a100.svg": "/websitePortfolio/static/media/img_frame_red_a100.e9e0538caa100a67e706f10fad91694d.svg",
     "index.html": "/websitePortfolio/index.html",
     "static/media/img_frame1.svg": "/websitePortfolio/static/media/img_frame1.b1303f3ee605fb0d3c1793b828521ab6.svg",
-    "main.4958a35d.css.map": "/websitePortfolio/static/css/main.4958a35d.css.map",
-    "main.8128a190.js.map": "/websitePortfolio/static/js/main.8128a190.js.map",
-    "961.e1b23e98.chunk.js.map": "/websitePortfolio/static/js/961.e1b23e98.chunk.js.map",
+    "main.d0027939.css.map": "/websitePortfolio/static/css/main.d0027939.css.map",
+    "main.3680b08b.js.map": "/websitePortfolio/static/js/main.3680b08b.js.map",
+    "961.1378820c.chunk.js.map": "/websitePortfolio/static/js/961.1378820c.chunk.js.map",
     "499.1487ee5e.chunk.js.map": "/websitePortfolio/static/js/499.1487ee5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4958a35d.css",
-    "static/js/main.8128a190.js"
+    "static/css/main.d0027939.css",
+    "static/js/main.3680b08b.js"
   ]
 }
