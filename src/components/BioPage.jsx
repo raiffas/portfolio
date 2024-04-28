@@ -37,7 +37,7 @@ export function BioPage({ pageRef }) {
                     </span>
                     <span className="text-white-A700 font-jura text-left font-normal">
                       , found what I loved and what I couldn’t stand to do
-                      anymore and ended up with a lot to show for.
+                      anymore, and ended up with a lot to show for.
                     </span>
                     <span className="text-red-A100 font-jura text-left font-normal">
                       {" "}
@@ -65,8 +65,8 @@ export function BioPage({ pageRef }) {
                   >
                     <span className="text-white-A700 font-jura text-left font-normal">
                       <>
-                        Getting my masters was important to focus <br />
-                        my skill set and create a portfolio of projects related
+                        Getting my masters allowed me to focus my <br />
+                        skill set and create a portfolio of projects related
                         to{" "}
                       </>
                     </span>
@@ -77,7 +77,7 @@ export function BioPage({ pageRef }) {
                       ,{" "}
                     </span>
                     <span className="text-red-A100 font-jura text-left font-normal">
-                      creative industries
+                      computer graphics
                     </span>
                     <span className="text-white-A700 font-jura text-left font-normal">
                       , and{" "}
@@ -91,7 +91,7 @@ export function BioPage({ pageRef }) {
                   </Text>
                 </div>
               </div>
-              <div className="flex flex-col h-[1024px] items-center justify-center max-w-[1440px] px-2.5 w-full">
+             {/* <div className="flex flex-col h-[1024px] items-center justify-center max-w-[1440px] px-2.5 w-full">
                 <div className="flex flex-col gap-[17px] items-center justify-center max-w-[990px] mx-auto md:px-5 w-full">
                 <img src={frame1} className="h-[283px] w-[283px]"  alt="frame" />
                   <Text
@@ -134,7 +134,7 @@ export function BioPage({ pageRef }) {
                     </span>
                   </Text>
                 </div>
-              </div>
+              </div>*/}
             </div>
     )
 }

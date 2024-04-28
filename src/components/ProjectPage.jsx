@@ -1,7 +1,7 @@
 import { Img, List, Text } from "components";
 export function ProjectPage({ pageRef }) {
     return (
-        <div key={"elemProj"} ref={pageRef} className="flex flex-col md:gap-10 gap-[100px] h-[2000px] md:h-auto items-start justify-start max-w-[1440px] w-full">
+        <div key={"elemProj"} ref={pageRef} className="flex flex-col md:gap-10 gap-[100px] h-[3000px] md:h-auto items-start justify-start max-w-[1440px] w-full">
               <div className="flex flex-col gap-[43px] items-center justify-start max-w-[1440px] w-full">
                 <Text
                   className="md:text-3xl sm:text-[28px] text-[32px] text-center text-white-A700 w-auto"
@@ -9,84 +9,46 @@ export function ProjectPage({ pageRef }) {
                 >
                   Research and Development
                 </Text>
+                
                 <div className="flex flex-col gap-[47px] h-[850px] md:h-auto items-start justify-start max-w-[1440px] w-full">
+                <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
+                    <Text
+                      className="text-base text-right text-white-A700 w-[710px]"
+                      size="txtJuraRegular16"
+                    >
+                      Research with Lockheed Martin
+                    </Text>
+                    <Text
+                      className="text-base text-white-A700"
+                      size="txtJuraRegular16"
+                    >
+                      <>
+                        Gaze adaptive interactions and user interfaces in AR
+                        with gaze tracking <br />
+                        visualizations <br /> 
+                        Research and design of new methods for LMCO to utilize
+                        gaze tracking <br />
+                        to improve the design and user experience of AR
+                        applications.<br/>
+                        Developed in Unity with OpenXR for use with Hololens 2. <br/>
+                        Fall 2023-Spring 2024
+                        <br />{" "}
+                      </>
+                    </Text>
+                  </div>
                   <div className="flex sm:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                     <Text
                       className="max-w-[710px] md:max-w-full text-base text-right text-white-A700 w-[710px]"
                       size="txtJuraRegular16"
                     >
-                      paper in progress
+                      Submission to ISMAR 2024
                     </Text>
                     <Text
                       className="text-base text-white-A700 w-[710px]"
                       size="txtJuraRegular16"
                     >
                       Scoping review with dynamic topic modeling of <br/>360-degree video applications
-                      areas <br></br>Fall 2023-Present
-                    </Text>
-                  </div>
-                  <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
-                    <Text
-                      className="text-base text-right text-white-A700 w-[710px]"
-                      size="txtJuraRegular16"
-                    >
-                      Poster accepted for IEEEVR 2024
-                    </Text>
-                    <Text
-                      className="text-base text-white-A700 w-[710px]"
-                      size="txtJuraRegular16"
-                    >
-                      <span className="text-white-A700 font-jura text-left font-normal">
-                        <>
-                          Physical locomotion techniques and presence in virtual
-                          reality
-                          <br />Fall/Spring 2022
-                          <br />
-                          Responsible for user study design to evaluate
-                          performance metrics of <br />
-                          two locomotion methods (Redirected Walking and Virtuix
-                          Omni)
-                          <br />
-                          Created complete virtual experience in UE4 for use with HTC Vive Cosmos. <br></br>
-                        </>
-                      </span>
-                      <span className="text-red-A100 font-jura text-left font-normal">
-                        Video Link (coming soon)
-                      </span>
-                    </Text>
-                  </div>
-                  <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
-                    <Text
-                      className="text-base text-right text-white-A700 w-[710px]"
-                      size="txtJuraRegular16"
-                    >
-                      Published short paper June 2022 in ISMAR 2022
-                    </Text>
-                    <Text
-                      className="text-base text-white-A700"
-                      size="txtJuraRegular16"
-                    >
-                      <span className="text-white-A700 font-jura text-left font-normal">
-                        <>
-                          Cross Reality interaction methods with Matt Gottsacker
-                          for CAP XXXX <br />
-                          Fall Semester 2021
-                          <br />
-                          As a team, designed and conducted user study to
-                          evaluate the effect of
-                          <br />
-                          Gottsacker’s working interruption cue prototype.
-                          Designed a theoretical
-                          <br />
-                          yet ecological valid scenario to test function and
-                          gather user attitudes
-                          <br />
-                          towards the interactions. <br />
-                        </>
-                      </span>
-                      <span className="text-red-A100 font-jura text-left font-normal">
-                      <a href="https://ieeexplore.ieee.org/abstract/document/9974530" rel="noreferrer">Publication Link</a>
-                      </span>
+                      areas <br></br>Fall 2023-May 2024
                     </Text>
                   </div>
                   <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
@@ -101,13 +63,14 @@ export function ProjectPage({ pageRef }) {
                       size="txtJuraRegular16"
                     >
                       <>
-                        Evaluating cybersickness reduction techniques <br/> Summer/Fall 2023
+                        Evaluating cybersickness reduction techniques 
                         <br />
                         Working alongside leadership at Boarding Ring to
                         evaluate Seenetic VR, <br />
                         their solution for cybersickness in Virtual Reality. <br/>
                         Compiled publically available 360-degree videos for automatic playback <br/> 
                         and data collection in Unity for use with
+                        <br/> Summer-Fall 2023
                       </>
                     </Text>
                   </div>
@@ -116,23 +79,62 @@ export function ProjectPage({ pageRef }) {
                       className="text-base text-right text-white-A700 w-[710px]"
                       size="txtJuraRegular16"
                     >
-                      Research with Lockheed Martin
+                      IEEEVR 2024 Presented Poster
+                    </Text>
+                    <Text
+                      className="text-base text-white-A700 w-[710px]"
+                      size="txtJuraRegular16"
+                    >
+                      <span className="text-white-A700 font-jura text-left font-normal">
+                        <>
+                          Physical locomotion techniques and presence in virtual
+                          reality<br></br>
+                          Responsible for (1) user study design to evaluate
+                          performance metrics of <br />
+                          two locomotion methods (Redirected Walking and Virtuix
+                          Omni) and
+                          <br />
+                          (2) virtual museum experience which served as experiment stimuli <br></br> in Unreal Engine 4 for use with HTC Vive Cosmos. 
+                          <br />Fall 2021-Spring 2022
+                          <br />
+                        </>
+                      </span>
+                      <span className="text-red-A100 font-jura text-left font-normal">
+                        Publication Link Coming Soon
+                      </span>
+                    </Text>
+                  </div>
+                  <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
+                    <Text
+                      className="text-base text-right text-white-A700 w-[710px]"
+                      size="txtJuraRegular16"
+                    >
+                      ISMAR 2022 Short Paper
                     </Text>
                     <Text
                       className="text-base text-white-A700"
                       size="txtJuraRegular16"
                     >
-                      <>
-                        Gaze adaptive interactions and user interfaces in AR
-                        with gaze tracking <br />
-                        visualizations <br /> Fall 2023/Spring 2024
-                        <br />
-                        Research and design of new methods for LMCO to utilize
-                        gaze tracking <br />
-                        to improve the design and user experience of AR
-                        applications.<br/>
-                        Developed in Unity with OpenXR for use with Hololens 2. <br/>{" "}
-                      </>
+                      <span className="text-white-A700 font-jura text-left font-normal">
+                        <>
+                          Cross Reality interaction methods user study with Matt Gottsacker
+                            <br />
+                          As a team, designed and conducted user study to
+                          evaluate the effect of
+                          <br />
+                          Gottsacker’s working interruption cue prototype.
+                          Designed a theoretical
+                          <br />
+                          yet ecological valid scenario to test function and
+                          gather user attitudes
+                          <br />
+                          towards the interactions. <br />
+                          CAP 6919 Fall 2021 <br></br>
+                        </>
+                      </span>
+                      <span className="text-red-A100 font-jura text-left font-normal">
+                      <a href="https://ieeexplore.ieee.org/abstract/document/9974530" rel="noreferrer">Publication Link</a>
+                      </span>
                     </Text>
                   </div>
                 </div>
@@ -164,10 +166,11 @@ export function ProjectPage({ pageRef }) {
                           <>
                             "Eye Spy"
                             <br />
-                            Fall 2023
-                            <br />
+                            
                             Testing eye spy concept to use for a research project comparing <br/>monoscopic and steroscopic 360-degree video
                             <br/>
+                            Fall 2023
+                            <br />
                           </>
                         </span>
                         <span className="text-red-A100 font-jura text-left font-normal">
@@ -216,9 +219,10 @@ export function ProjectPage({ pageRef }) {
                             SIGGRAPH 2023 T-Shirt AR Lens with Dr. Mark
                             Billinghurst
                             <br />
-                            Summer 2023 <br/>
+                            
                             Developed using lens studio
                             <br />
+                            Summer 2023 <br/>
                           </>
                         </span>
                         <span className="text-red-A100 font-jura text-left font-normal">
@@ -241,9 +245,10 @@ export function ProjectPage({ pageRef }) {
                           <>
                             Virtual Reality Dining Room Experience
                             <br />
-                            Spring 2023 VR Engineering Class Project
-                            <br />
+                          
                             Developed with Unity and OpenXR for use with HP Omnicept. <br/>
+                            CAP 5115 Spring 2023
+                            <br />
                           </>
                         </span>
                         <span className="text-red-A100 font-jura text-left font-normal">
@@ -347,6 +352,228 @@ export function ProjectPage({ pageRef }) {
                   </div>
                 </div>
               </List>
+              <div className="flex flex-1 flex-col gap-[43px] items-center justify-start max-w-[1440px] w-full">
+                  <Text
+                    className="md:text-3xl sm:text-[28px] text-[32px] text-center text-white-A700 w-auto"
+                    size="txtJuraRegular32"
+                  >
+                    Technical Experience
+                  </Text>
+                  <div className="flex flex-col gap-[47px] items-start justify-start max-w-[1440px] w-full">
+                  <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
+                      <Text
+                        className="text-base text-right text-white-A700 w-[710px]"
+                        size="txtJuraRegular16"
+                      >
+                        Graduate Research Assistant
+                      </Text>
+                      <Text
+                        className="text-base text-white-A700"
+                        size="txtJuraRegular16"
+                      >
+                        <span className="text-white-A700 font-jura text-left font-normal">
+                          <>
+                            VARLAB - University of Central Florida, Orlando, FL
+                            <br />
+                            (1) Continuously managed 2-4 AR/VR research and development <br />projects with monthly deliverables
+                            <br />
+                            (2) Designed and developed a realistic VR museum experience with <br />Unreal Engine 4, HTC Vive Cosmos, and physical locomotion <br />methods (Redirected Walking and Omni-Directional Treadmills)
+                            <br />
+                            (3) Created EyeToolKit (EyeTK) to facilitate adding gaze based <br />interactions and gaze adaptive user interfaces in Unity/OpenXR <br/>AR projects for the Hololens2 <br/>
+                            August 2020-May 2024
+                            <br />
+                          </>
+                        </span>
+
+                      </Text>
+                    </div>
+                    <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
+                      <Text
+                        className="text-base text-right text-white-A700 w-[710px]"
+                        size="txtJuraRegular16"
+                      >
+                        Software Engineer (Contractor)
+                      </Text>
+                      <Text
+                        className="text-base text-white-A700"
+                        size="txtJuraRegular16"
+                      >
+                        <span className="text-white-A700 font-jura text-left font-normal">
+                          <>
+                            Delta V Innovations, Cincinatti, OH (remote)
+                            <br />
+                            (1) Invited to join the development team after successful <br />delivery of a 12-week senior design project
+                            <br />
+                            (2) Worked closely with the lead engineer to integrate <br />new UI features for a physics-based vehicle crash <br />reconstruction visualization software using C++ and QT
+                            <br />
+                            May 2020-October 2020
+                            <br />
+                          </>
+                        </span>
+
+                      </Text>
+                    </div>
+                    <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
+                      <Text
+                        className="text-base text-right text-white-A700 w-[710px]"
+                        size="txtJuraRegular16"
+                      >
+                        Software Engineer (Contractor)
+                      </Text>
+                      <Text
+                        className="text-base text-white-A700 w-auto"
+                        size="txtJuraRegular16"
+                      >
+                        <span className="text-white-A700 font-jura text-left font-normal">
+                          <>
+                            Lexcelon LLC, Lexington, KY (remote)
+                            <br />
+                            (1) Feature development for an experimental, at-home <br/>physical therapy application/system for Active Therapy Systems
+                            <br />
+                            using React Native <br/>
+                            December 2019-August 2020
+                            <br />
+                          </>
+                        </span>
+
+                      </Text>
+                    </div>
+
+                    <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
+                      <Text
+                        className="text-base text-right text-white-A700 w-[710px]"
+                        size="txtJuraRegular16"
+                      >
+                        Associate IT Systems Analyst
+                      </Text>
+                      <Text
+                        className="text-base text-white-A700 w-auto"
+                        size="txtJuraRegular16"
+                      >
+                        <span className="text-white-A700 font-jura text-left font-normal">
+                          <>
+                            GE Appliances, Louisville, KY
+                            <br />
+                            (1) Streamlined the migration of two business applications <br/>used by GE engineers
+                            <br />
+                            (2) Collaborated with infrastructure teams, developers, <br/>and IT and Engineering project leads to ensure a <br/>sucessful migration
+                          
+                            <br />
+                            (3) Worked on front end (Cordova) and back end (AWS IoT Core) <br/>for a cross-platform mobile application to monitor activity <br/>for an indoor smoker developed by FirstBuild
+                            <br/>
+                            May 2019-July 2019
+                            <br />
+                          </>
+                        </span>
+
+                      </Text>
+                    </div>
+
+                    <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
+                      <Text
+                        className="text-base text-right text-white-A700 w-[710px]"
+                        size="txtJuraRegular16"
+                      >
+                        Undergraduate Research Assistant
+                      </Text>
+                      <Text
+                        className="text-base text-white-A700 w-auto"
+                        size="txtJuraRegular16"
+                      >
+                        <span className="text-white-A700 font-jura text-left font-normal">
+                          <>
+                            Digital Restoration Initiative, University of Kentucky, Lexington, KY
+                            <br />
+                            (1) Developed an automatic XML metadata collection and <br />delivery process to solve a long-standing issue with the <br />existing Virtual Unwrapping pipeline
+                            <br />
+                            (2) Published and presented work locally and internationally
+                            <br />
+                            (3) Spearheaded production on video detailing the lab’s <br />innovations in Machine Learning
+                            <br />
+                            August 2018-August 2020
+                            <br />
+                          </>
+                        </span>
+                      </Text>
+                    </div>
+
+                    <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
+                      <Text
+                        className="text-base text-right text-white-A700 w-[710px]"
+                        size="txtJuraRegular16"
+                      >
+                        Summer Intern
+                      </Text>
+                      <Text
+                        className="text-base text-white-A700 w-auto"
+                        size="txtJuraRegular16"
+                      >
+                        <span className="text-white-A700 font-jura text-left font-normal">
+                          <>
+                            Active Therapy Systems, Nicholasville, KY
+                            <br />
+                            May 2018-August 2018
+                            <br />
+                          </>
+                        </span>
+
+                      </Text>
+                    </div>
+
+                    <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
+                      <Text
+                        className="text-base text-right text-white-A700 w-[710px]"
+                        size="txtJuraRegular16"
+                      >
+                        Engineer Co-op
+                      </Text>
+                      <Text
+                        className="text-base text-white-A700 w-auto"
+                        size="txtJuraRegular16"
+                      >
+                        <span className="text-white-A700 font-jura text-left font-normal">
+                          <>
+                            Trane, Lexington, KY
+                            <br />
+
+                            January 2018-July 2018
+                            <br />
+                          </>
+                        </span>
+
+                      </Text>
+                    </div>
+
+                    <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
+                      <Text
+                        className="text-base text-right text-white-A700 w-[710px]"
+                        size="txtJuraRegular16"
+                      >
+                        Data Analytics Research Assistant
+                      </Text>
+                      <Text
+                        className="text-base text-white-A700 w-auto"
+                        size="txtJuraRegular16"
+                      >
+                        <span className="text-white-A700 font-jura text-left font-normal">
+                          <>
+                            Biostastics Department, University of Kentucky, Lexington, KY
+                            <br />
+
+                            August 2016-December 2017
+                            <br />
+                          </>
+                        </span>
+
+                      </Text>
+                    </div>
+
+
+
+                  </div>
+                </div>
             </div>
+
+            
     )
 }

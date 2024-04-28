@@ -18,7 +18,7 @@ export function HomePage( { pageRef } ) {
                   size="txtJuraRegular32"
                 >
                   <>
-                    email: raiffa.syamil [at] ucf.edu
+                    email: raiffas [at] gmail.com
                     <br />
                     Orlando, FL
                   </>
