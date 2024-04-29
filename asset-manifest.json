@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/websitePortfolio/static/css/main.d0027939.css",
-    "main.js": "/websitePortfolio/static/js/main.96a8de48.js",
-    "static/js/961.b2b2dd00.chunk.js": "/websitePortfolio/static/js/961.b2b2dd00.chunk.js",
-    "static/js/499.1487ee5e.chunk.js": "/websitePortfolio/static/js/499.1487ee5e.chunk.js",
-    "static/media/KirangHaerangRegular.ttf": "/websitePortfolio/static/media/KirangHaerangRegular.bcd168525fd387546c75.ttf",
-    "static/media/img_headshottransparent.png": "/websitePortfolio/static/media/img_headshottransparent.24a4c2561449f68baa90.png",
-    "static/media/JuraRegular.ttf": "/websitePortfolio/static/media/JuraRegular.0a4ac78909358bf67d67.ttf",
-    "static/media/JuraBold.ttf": "/websitePortfolio/static/media/JuraBold.ebc36b579e40c6b39a15.ttf",
-    "static/media/img_frame_red_a100.svg": "/websitePortfolio/static/media/img_frame_red_a100.e9e0538caa100a67e706f10fad91694d.svg",
-    "index.html": "/websitePortfolio/index.html",
-    "static/media/img_frame1.svg": "/websitePortfolio/static/media/img_frame1.b1303f3ee605fb0d3c1793b828521ab6.svg",
-    "main.d0027939.css.map": "/websitePortfolio/static/css/main.d0027939.css.map",
-    "main.96a8de48.js.map": "/websitePortfolio/static/js/main.96a8de48.js.map",
-    "961.b2b2dd00.chunk.js.map": "/websitePortfolio/static/js/961.b2b2dd00.chunk.js.map",
-    "499.1487ee5e.chunk.js.map": "/websitePortfolio/static/js/499.1487ee5e.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.d4ff7555.css",
+    "main.js": "/portfolio/static/js/main.a945d4a2.js",
+    "static/js/961.b2b2dd00.chunk.js": "/portfolio/static/js/961.b2b2dd00.chunk.js",
+    "static/js/499.1487ee5e.chunk.js": "/portfolio/static/js/499.1487ee5e.chunk.js",
+    "static/media/KirangHaerangRegular.ttf": "/portfolio/static/media/KirangHaerangRegular.bcd168525fd387546c75.ttf",
+    "static/media/img_headshottransparent.png": "/portfolio/static/media/img_headshottransparent.24a4c2561449f68baa90.png",
+    "static/media/JuraRegular.ttf": "/portfolio/static/media/JuraRegular.0a4ac78909358bf67d67.ttf",
+    "static/media/JuraBold.ttf": "/portfolio/static/media/JuraBold.ebc36b579e40c6b39a15.ttf",
+    "static/media/img_frame_red_a100.svg": "/portfolio/static/media/img_frame_red_a100.e9e0538caa100a67e706f10fad91694d.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/img_frame1.svg": "/portfolio/static/media/img_frame1.b1303f3ee605fb0d3c1793b828521ab6.svg",
+    "main.d4ff7555.css.map": "/portfolio/static/css/main.d4ff7555.css.map",
+    "main.a945d4a2.js.map": "/portfolio/static/js/main.a945d4a2.js.map",
+    "961.b2b2dd00.chunk.js.map": "/portfolio/static/js/961.b2b2dd00.chunk.js.map",
+    "499.1487ee5e.chunk.js.map": "/portfolio/static/js/499.1487ee5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0027939.css",
-    "static/js/main.96a8de48.js"
+    "static/css/main.d4ff7555.css",
+    "static/js/main.a945d4a2.js"
   ]
 }
