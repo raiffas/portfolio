@@ -69,7 +69,7 @@ export function ProjectPage({ pageRef }) {
                         evaluate Seenetic VR, <br />
                         their solution for cybersickness in Virtual Reality. <br/>
                         Compiled publically available 360-degree videos for automatic playback <br/> 
-                        and data collection in Unity for use with
+                        and data collection in Unity for use with Meta Quest Pro.
                         <br/> Summer-Fall 2023
                       </>
                     </Text>
@@ -119,15 +119,15 @@ export function ProjectPage({ pageRef }) {
                         <>
                           Cross Reality interaction methods user study with Matt Gottsacker
                             <br />
-                          As a team, designed and conducted user study to
-                          evaluate the effect of
-                          <br />
-                          Gottsacker’s working interruption cue prototype.
+                          As a team, designed and conducted a user study to
+                          evaluate the <br />effect of
+                          
+                          Matt’s interruption cue prototype.
                           Designed a theoretical
                           <br />
                           yet ecological valid scenario to test function and
-                          gather user attitudes
-                          <br />
+                          gather user <br />attitudes
+                          
                           towards the interactions. <br />
                           CAP 6919 Fall 2021 <br></br>
                         </>
@@ -219,8 +219,9 @@ export function ProjectPage({ pageRef }) {
                             SIGGRAPH 2023 T-Shirt AR Lens with Dr. Mark
                             Billinghurst
                             <br />
-                            
-                            Developed using lens studio
+                            Allowed conference attendees to virtually try on <br />T-shirts, hats, and pins from previous iterations of the conference <br />in honor of the 50th anniversary of SIGGRAPH.
+                            <br />
+                            Developed in Lens studio.
                             <br />
                             Summer 2023 <br/>
                           </>
@@ -266,32 +267,7 @@ export function ProjectPage({ pageRef }) {
                     Presentations and Speaking Opportunities
                   </Text>
                   <div className="flex flex-col gap-[47px] items-start justify-start max-w-[1440px] w-full">
-                  <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
-                      <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
-                        size="txtJuraRegular16"
-                      >
-                        Rejected Speaking Proposal
-                      </Text>
-                      <Text
-                        className="text-base text-white-A700"
-                        size="txtJuraRegular16"
-                      >
-                        <span className="text-white-A700 font-jura text-left font-normal">
-                          <>
-                            “Cinematic VR: Immersive Storytelling of the Future”
-                            <br />
-                            SXSW2024 speaker proposal
-                            <br />
-                            Summer 2023
-                            <br />
-                          </>
-                        </span>
-                        <span className="text-red-A100 font-jura text-left font-normal">
-                          <a href="https://youtu.be/yOzFuwR2Uoc" rel="noreferrer">Proposal Link (view on mobile or VR headset)</a>
-                        </span>
-                      </Text>
-                    </div>
+
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
                         className="text-base text-right text-white-A700 w-[710px]"
@@ -497,28 +473,7 @@ export function ProjectPage({ pageRef }) {
                       </Text>
                     </div>
 
-                    <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
-                      <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
-                        size="txtJuraRegular16"
-                      >
-                        Summer Intern
-                      </Text>
-                      <Text
-                        className="text-base text-white-A700 w-auto"
-                        size="txtJuraRegular16"
-                      >
-                        <span className="text-white-A700 font-jura text-left font-normal">
-                          <>
-                            Active Therapy Systems, Nicholasville, KY
-                            <br />
-                            May 2018-August 2018
-                            <br />
-                          </>
-                        </span>
-
-                      </Text>
-                    </div>
+                    
 
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
@@ -535,7 +490,11 @@ export function ProjectPage({ pageRef }) {
                           <>
                             Trane, Lexington, KY
                             <br />
-
+                            (1) Developed a new feature for a VB.NET application <br />that supported an improvement plan for a
+manufacturing plant. <br />Feature reduced waste of cut metal parts
+                            <br />
+                            (2) Developed a VBA application used by all project leaders <br />to easily access important dates and
+information <br />on all current projects. Automated updating of desired <br />project information<br />
                             January 2018-July 2018
                             <br />
                           </>
@@ -544,30 +503,7 @@ export function ProjectPage({ pageRef }) {
                       </Text>
                     </div>
 
-                    <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
-                      <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
-                        size="txtJuraRegular16"
-                      >
-                        Data Analytics Research Assistant
-                      </Text>
-                      <Text
-                        className="text-base text-white-A700 w-auto"
-                        size="txtJuraRegular16"
-                      >
-                        <span className="text-white-A700 font-jura text-left font-normal">
-                          <>
-                            Biostastics Department, University of Kentucky, Lexington, KY
-                            <br />
-
-                            August 2016-December 2017
-                            <br />
-                          </>
-                        </span>
-
-                      </Text>
-                    </div>
-
+ 
 
 
                   </div>
