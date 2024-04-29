@@ -12,7 +12,7 @@ export function DesktopFooter() {
               <>
                 website under construction, last updated: 4/28/2024
                 <br />
-                email me at raiffa.syamil [at] ucf.edu -- feedback and creative
+                email me at raiffa [at] gmail.com -- feedback and creative
                 ideas welcome!
               </>
             </Text>

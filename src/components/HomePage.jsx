@@ -18,8 +18,9 @@ export function HomePage( { pageRef } ) {
                   size="txtJuraRegular32"
                 >
                   <>
-                    email: raiffas [at] gmail.com
+                    contact: raiffas [at] gmail.com
                     <br />
+                    github.com/raiffas<br />
                     Orlando, FL
                   </>
                 </Text>
