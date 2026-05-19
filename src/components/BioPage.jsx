@@ -3,9 +3,9 @@ import frame1 from './img_frame_red_a100.svg'
 export function BioPage({ pageRef }) {
     return (
         <div key={"elemBio"} ref={pageRef} className="flex flex-col items-start justify-center max-w-[1440px] w-full">
-              <div className="flex flex-col h-[1024px] items-center justify-center max-w-[1440px] px-2.5 w-full">
+              <div className="flex flex-col h-[1024px] md:h-auto md:py-16 sm:py-10 items-center justify-center max-w-[1440px] px-2.5 w-full">
                 <div className="flex flex-col gap-[17px] h-[621px] md:h-auto items-center justify-center max-w-[877px] mx-auto md:px-5 w-full">
-                <img src={frame1} className="h-[283px] w-[283px]"  alt="frame" />
+                <img src={frame1} className="h-[283px] w-[283px] sm:h-[180px] sm:w-[180px]"  alt="frame" />
                   <Text
                     className="md:text-3xl sm:text-[28px] text-[32px] text-center text-white-A700"
                     size="txtJuraBold32"
@@ -45,9 +45,9 @@ export function BioPage({ pageRef }) {
                   </Text>
                 </div>
               </div>
-              <div className="flex flex-col h-[1024px] items-center justify-center max-w-[1440px] px-2.5 w-full">
+              <div className="flex flex-col h-[1024px] md:h-auto md:py-16 sm:py-10 items-center justify-center max-w-[1440px] px-2.5 w-full">
                 <div className="flex flex-col gap-[17px] items-center justify-center max-w-[1058px] mx-auto md:px-5 w-full">
-                  <img src={frame1} className="h-[283px] w-[283px]"  alt="frame" />
+                  <img src={frame1} className="h-[283px] w-[283px] sm:h-[180px] sm:w-[180px]"  alt="frame" />
                   <Text
                     className="md:text-3xl sm:text-[28px] text-[32px] text-center text-white-A700"
                     size="txtJuraBold32"
@@ -91,9 +91,9 @@ export function BioPage({ pageRef }) {
                   </Text>
                 </div>
               </div>
-             {/* <div className="flex flex-col h-[1024px] items-center justify-center max-w-[1440px] px-2.5 w-full">
+             {/* <div className="flex flex-col h-[1024px] md:h-auto md:py-16 sm:py-10 items-center justify-center max-w-[1440px] px-2.5 w-full">
                 <div className="flex flex-col gap-[17px] items-center justify-center max-w-[990px] mx-auto md:px-5 w-full">
-                <img src={frame1} className="h-[283px] w-[283px]"  alt="frame" />
+                <img src={frame1} className="h-[283px] w-[283px] sm:h-[180px] sm:w-[180px]"  alt="frame" />
                   <Text
                     className="md:text-3xl sm:text-[28px] text-[32px] text-center text-white-A700"
                     size="txtKirangHaerangRegular32"

@@ -13,7 +13,7 @@ export function ProjectPage({ pageRef }) {
                 <div className="flex flex-col gap-[47px] h-[850px] md:h-auto items-start justify-start max-w-[1440px] w-full">
                 <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                     <Text
-                      className="text-base text-right text-white-A700 w-[710px]"
+                      className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                       size="txtJuraRegular16"
                     >
                       Research with Lockheed Martin
@@ -44,7 +44,7 @@ export function ProjectPage({ pageRef }) {
                       Submission to ISMAR 2024
                     </Text>
                     <Text
-                      className="text-base text-white-A700 w-[710px]"
+                      className="text-base text-white-A700 md:w-full w-[710px]"
                       size="txtJuraRegular16"
                     >
                       Scoping review with dynamic topic modeling of <br/>360-degree video applications
@@ -53,7 +53,7 @@ export function ProjectPage({ pageRef }) {
                   </div>
                   <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                     <Text
-                      className="text-base text-right text-white-A700 w-[710px]"
+                      className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                       size="txtJuraRegular16"
                     >
                       Research with Boarding Ring
@@ -76,13 +76,13 @@ export function ProjectPage({ pageRef }) {
                   </div>
                   <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                     <Text
-                      className="text-base text-right text-white-A700 w-[710px]"
+                      className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                       size="txtJuraRegular16"
                     >
                       IEEEVR 2024 Presented Poster
                     </Text>
                     <Text
-                      className="text-base text-white-A700 w-[710px]"
+                      className="text-base text-white-A700 md:w-full w-[710px]"
                       size="txtJuraRegular16"
                     >
                       <span className="text-white-A700 font-jura text-left font-normal">
@@ -106,7 +106,7 @@ export function ProjectPage({ pageRef }) {
                   </div>
                   <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                     <Text
-                      className="text-base text-right text-white-A700 w-[710px]"
+                      className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                       size="txtJuraRegular16"
                     >
                       ISMAR 2022 Short Paper
@@ -153,7 +153,7 @@ export function ProjectPage({ pageRef }) {
                   <div className="flex flex-col gap-[47px] items-start justify-start max-w-[1440px] w-full">
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         360-Degree Video concept
@@ -180,7 +180,7 @@ export function ProjectPage({ pageRef }) {
                     </div>
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         Snapchat AR Lens
@@ -205,7 +205,7 @@ export function ProjectPage({ pageRef }) {
                     </div>
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         Snapchat AR Lens
@@ -233,7 +233,7 @@ export function ProjectPage({ pageRef }) {
                     </div>
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         VR Experience
@@ -270,7 +270,7 @@ export function ProjectPage({ pageRef }) {
 
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         Invited Panelist
@@ -297,7 +297,7 @@ export function ProjectPage({ pageRef }) {
                     </div>
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         Research Presentation
@@ -338,7 +338,7 @@ export function ProjectPage({ pageRef }) {
                   <div className="flex flex-col gap-[47px] items-start justify-start max-w-[1440px] w-full">
                   <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         Graduate Research Assistant
@@ -365,7 +365,7 @@ export function ProjectPage({ pageRef }) {
                     </div>
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         Software Engineer (Contractor)
@@ -391,7 +391,7 @@ export function ProjectPage({ pageRef }) {
                     </div>
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         Software Engineer (Contractor)
@@ -417,7 +417,7 @@ export function ProjectPage({ pageRef }) {
 
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         Associate IT Systems Analyst
@@ -447,7 +447,7 @@ export function ProjectPage({ pageRef }) {
 
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         Undergraduate Research Assistant
@@ -477,7 +477,7 @@ export function ProjectPage({ pageRef }) {
 
                     <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1440px] w-full">
                       <Text
-                        className="text-base text-right text-white-A700 w-[710px]"
+                        className="text-base md:text-left text-right text-white-A700 md:w-full w-[710px]"
                         size="txtJuraRegular16"
                       >
                         Engineer Co-op
