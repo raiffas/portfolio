@@ -1,6 +1,7 @@
-export const projectSections = [
-  {
-    id: "research",
+export const sectionOrder = ["technical", "research", "digital", "presentations"];
+
+export const projectSections = {
+  research: {
     heading: "Research and Development",
     items: [
       {
@@ -56,8 +57,7 @@ export const projectSections = [
       },
     ],
   },
-  {
-    id: "digital",
+  digital: {
     heading: "Digital Experiences",
     items: [
       {
@@ -103,8 +103,7 @@ export const projectSections = [
       },
     ],
   },
-  {
-    id: "presentations",
+  presentations: {
     heading: "Presentations and Speaking Opportunities",
     items: [
       {
@@ -130,9 +129,9 @@ export const projectSections = [
       },
     ],
   },
-  {
-    id: "technical",
+  technical: {
     heading: "Technical Experience",
+    accentFirst: true,
     items: [
       {
         id: "lmco",
@@ -204,4 +203,4 @@ export const projectSections = [
       },
     ],
   },
-];
+};
