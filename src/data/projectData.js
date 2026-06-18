@@ -135,13 +135,24 @@ export const projectSections = [
     heading: "Technical Experience",
     items: [
       {
+        id: "lmco",
+        label: "Embedded Software Engineer",
+        lines: [
+          "Lockheed Martin MFC, Orlando, FL",
+          "(1) Delivered safety-critical C++ components under millisecond-level real-time constraints in an embedded Linux environment; designed and executed HIL test frameworks and presented compliance results to stakeholders.",
+          "(2) Served as Scrum Master for a 9-person team across PI planning and sprint ceremonies.",
+          "July 2024-May 2026",
+        ],
+        link: null,
+      },
+      {
         id: "varlab",
         label: "Graduate Research Assistant",
         lines: [
           "VARLAB - University of Central Florida, Orlando, FL",
-          "(1) Continuously managed 2-4 AR/VR research and development projects with monthly deliverables",
-          "(2) Designed and developed a realistic VR museum experience with Unreal Engine 4, HTC Vive Cosmos, and physical locomotion methods (Redirected Walking and Omni-Directional Treadmills)",
-          "(3) Created EyeToolKit (EyeTK) to facilitate adding gaze based interactions and gaze adaptive user interfaces in Unity/OpenXR AR projects for the Hololens2",
+          "(1) Led delivery of a component-based AR UI SDK in Unity, architecting a hierarchical scene graph component system for gaze-adaptive HoloLens 2 interfaces; optimized rendering against strict memory and compute budgets using C#, Unity, and OpenXR.",
+          "(2) Ported a VR locomotion system from Unity to Unreal Engine 4 (C++, Blueprint), managing scene graph hierarchy and asset streaming to meet millisecond-level latency constraints on a high-polygon environment; published at IEEEVR 2024.",
+          "(3) Independently drove peer-reviewed research projects end-to-end, published at IEEEVR and ISMAR — top international venues in the field.",
           "August 2020-May 2024",
         ],
         link: null,
@@ -152,8 +163,8 @@ export const projectSections = [
         lines: [
           "Delta V Innovations, Cincinatti, OH (remote)",
           "(1) Invited to join the development team after successful delivery of a 12-week senior design project",
-          "(2) Worked closely with the lead engineer to integrate new UI features for a physics-based vehicle crash reconstruction visualization software using C++ and QT",
-          "May 2020-October 2020",
+          "(2) Developed and optimized user-facing features for a physics-based 3D visualization tool in C++ and Qt, collaborating with a distributed agile team on real-time data rendering and UI performance.",
+          "May 2020-May 2021",
         ],
         link: null,
       },
