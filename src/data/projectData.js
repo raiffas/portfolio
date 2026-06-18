@@ -169,23 +169,12 @@ export const projectSections = [
         link: null,
       },
       {
-        id: "lexcelon",
-        label: "Software Engineer (Contractor)",
-        lines: [
-          "Lexcelon LLC, Lexington, KY (remote)",
-          "(1) Feature development for an experimental, at-home physical therapy application/system for Active Therapy Systems using React Native",
-          "December 2019-August 2020",
-        ],
-        link: null,
-      },
-      {
         id: "ge",
         label: "Associate IT Systems Analyst",
         lines: [
           "GE Appliances, Louisville, KY",
-          "(1) Streamlined the migration of two business applications used by GE engineers",
-          "(2) Collaborated with infrastructure teams, developers, and IT and Engineering project leads to ensure a successful migration",
-          "(3) Worked on front end (Cordova) and back end (AWS IoT Core) for a cross-platform mobile application to monitor activity for an indoor smoker developed by FirstBuild",
+          "(1) Built a cross-platform mobile app to monitor IoT device activity using Cordova, JavaScript, and AWS IoT Core, deployed for use by internal engineering teams",
+          "(2) Coordinated the sunset of two internal business applications, managing stakeholder communication and transition timelines",
           "May 2019-July 2019",
         ],
         link: null,
