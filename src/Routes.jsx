@@ -3,14 +3,16 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "pages/Home";
 import NotFound from "pages/NotFound";
 const DesktopOne = React.lazy(() => import("pages/DesktopOne"));
+const Blog = React.lazy(() => import("pages/Blog"));
 const ProjectRoutes = () => {
   return (
     <React.Suspense fallback={<>Loading...</>}>
       <Router>
         <Routes>
           <Route path="/portfolio" element={<DesktopOne />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/desktopone" element={<DesktopOne />} /> 
+          <Route path="/desktopone" element={<DesktopOne />} />
         </Routes>
       </Router>
     </React.Suspense>

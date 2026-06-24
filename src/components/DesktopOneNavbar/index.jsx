@@ -1,6 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-import redLogo from '../img_frame_red_a100.svg'
 import logo from './img_frame1.svg'
 
 const DesktopOneNavbar = (props) => {
@@ -20,12 +20,14 @@ const DesktopOneNavbar = (props) => {
           <button onClick={() => props.handleClick(2)} className={`md:text-3xl sm:text-[28px] text-[32px] ${btnColor} w-auto transition-colors duration-300`}
               size="txtKirangHaerangRegular32">{props?.projectsbuttontext}</button>
         </div>
-        <img
-          src={logo}
-          className="h-12 w-12 transition-[filter] duration-300"
-          style={{ filter: scrolled ? 'brightness(0)' : 'none' }}
-          alt="logo"
-        />
+        <Link to="/blog">
+          <img
+            src={logo}
+            className="h-12 w-12 transition-[filter] duration-300"
+            style={{ filter: scrolled ? 'brightness(0)' : 'none' }}
+            alt="logo"
+          />
+        </Link>
       </div>
     </>
   );
