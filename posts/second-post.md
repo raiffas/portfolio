@@ -13,3 +13,4 @@ On Monday, I have my first day of my batch at the Recurse Center (https://www.re
 <3 
 
 friday june 26 2026
+nyc

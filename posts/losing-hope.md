@@ -3,3 +3,4 @@ last week was my first week of my half batch at the recurse center. it was a whi
 I often lose hope before I've even tried. I would like to have more faith in myself. And I would like to rely on others before relying on other tools to pull me out of the pits of despair. At the end of the day its not that deep right? we are all just learning and moving towards the best versions of ourselves. I can remove the pressure to perform and the expectation to be an expert when I should allow myself to enjoy being a beginner. 
 
 monday july 6 2026
+nyc
