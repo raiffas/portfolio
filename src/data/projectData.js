@@ -61,6 +61,16 @@ export const projectSections = {
     heading: "Digital Experiences",
     items: [
       {
+        id: "spaceinvaders",
+        label: "Typescript Game",
+        lines: [
+          "Space Invaders",
+          "Learning typescript through implementing a space invaders style cat game",
+          "Summer 2026",
+        ],
+        link: { text: "Project Link", href: "" },
+      },
+      {
         id: "eyespy",
         label: "360-Degree Video concept",
         lines: [

@@ -9,6 +9,7 @@ import { BioPage } from "components/BioPage";
 import { ProjectPage } from "components/ProjectPage";
 
 
+
 const DesktopOnePage = () => {
   let pageRef = [useRef(null),useRef(null),useRef(null)];
   const scrollToRef = ref => ref.current.scrollIntoView({ behavior: "smooth" });
