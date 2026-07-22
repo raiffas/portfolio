@@ -1,5 +1,3 @@
-Career Fears
-
 I think one of the worst things about fear and anxiety is this habit of filling your brainspace with negative thoughts meant to perpetuate this feeling of doom. 
 
 Every time things get tough or seem bleak, its so easy to submit oneself to those outcomes instead of pushing through. 
